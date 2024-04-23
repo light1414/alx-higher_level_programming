@@ -1,7 +1,6 @@
 #!/usr/bin/node
 
 /*lets code*/
-
 class Rectangle {
   constructor (w, h) {
     this.width = w;

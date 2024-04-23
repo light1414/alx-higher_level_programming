@@ -1,6 +1,6 @@
 #!/usr/bin/node
-const OddSquare = require('./5-square');
 
+const OddSquare = require('./5-square');
 class Square extends OddSquare {
   charPrint (c) {
     if (c === null) {
