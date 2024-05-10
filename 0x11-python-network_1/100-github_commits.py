@@ -9,7 +9,7 @@ import argv
 
 if __name__ == "__main__":
     url = "https://api.github.com/repos/{}/{}/commits".format(
-        syst.argv[2], syst.argv[1])
+        sys.argv[2], sys.argv[1])
 
     r = requests.get(url)
     commits = r.json()
